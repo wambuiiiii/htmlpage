@@ -1,0 +1,45 @@
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 20px;
+}.container h2{
+    text-align: center;
+ }
+ .form-group{
+     margin-bottom: 20px;
+ }
+ .form-group label{
+     margin-bottom: 5px;
+     display: block;font-weight: bold;
+ }
+ .form-group input{
+     width: 90%;
+     padding: 10px;
+     border-radius: 5px;
+     border: 1px solid blue;
+ }
+ .form-group button{
+     width: 100%;
+     padding: 10px;
+     background-color: darkturquoise;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+
+ }.form-group button:hover{
+    background-color: black;
+   }
+  body{
+      font-family: "DejaVu Sans Mono";
+  }
+  .form-group textarea{
+      background-color: #ffffff;
+      width: 100%;
+      padding: 10px;
+  }
+  .form-group select{
+      background-color: skyblue;
+  }
